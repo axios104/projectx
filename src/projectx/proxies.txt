@@ -1,0 +1,9 @@
+# ProjectX Proxy List
+# Add one proxy per line in format:
+#   http://ip:port
+#   http://username:password@ip:port
+#   socks5://ip:port
+#
+# Example:
+# http://123.456.789.0:8080
+# http://user:pass@proxy.example.com:3128

@@ -1,0 +1,18 @@
+[project]
+name = "projectx"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "scrapy>=2.19.0",
+    "openpyxl>=3.1.0",
+    "scrapy-playwright>=0.0.43",
+]
+
+[project.scripts]
+projectx = "projectx:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
